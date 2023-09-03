@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".login.LoginFragment">
+
+        <TextView
+            style="@style/ViewMargin"
+            android:text="@string/label_shoestore"
+            android:textAlignment="center"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/text_title" />
+
+        <EditText
+            android:id="@+id/email_edit"
+            style="@style/ViewMargin"
+            android:ems="10"
+            android:hint="@string/enter_your_email"
+            android:inputType="text"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/password_edit"
+            style="@style/ViewMargin"
+            android:ems="10"
+            android:hint="@string/enter_your_password"
+            android:inputType="text"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/login_button"
+            style="@style/ViewMargin"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/roboto"
+            android:text="@string/Login" />
+
+        <Button
+            android:id="@+id/new_login_button"
+            style="@style/ViewMargin"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/roboto"
+            android:text="@string/signup" />
+
+    </LinearLayout>
+</layout>
