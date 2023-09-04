@@ -33,6 +33,10 @@ class ShoeListFragment : Fragment() {
         binding.lifecycleOwner = this
         setHasOptionsMenu(true)
 
+        binding.fab.setOnClickListener{
+            findNavController().navigate(ShoeListFragmentDirections.actionShoeListFragmentToShoeDetailFragment())
+        }
+
         viewModel.shoeList.observe(viewLifecycleOwner, Observer { shoesList ->
             for (shoe in shoesList) {
                 addShoeToView(container, shoe)

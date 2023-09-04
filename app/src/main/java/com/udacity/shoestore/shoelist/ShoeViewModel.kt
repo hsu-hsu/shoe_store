@@ -24,6 +24,10 @@ class ShoeViewModel: ViewModel() {
     }
 
     fun addShoe(shoe: Shoe) {
-        _shoeList.value?.add(shoe)
+        if (_shoeList.value == null) {
+            _shoeList.value = mutableListOf(shoe)
+        } else {
+            _shoeList.value?.add(shoe)
+        }
     }
 }

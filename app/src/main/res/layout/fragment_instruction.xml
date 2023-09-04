@@ -13,6 +13,7 @@
             style="@style/ViewMargin"
             android:text="@string/instruction"
             android:textSize="@dimen/text_title"
+            android:textAlignment="center"
             android:textColor="@color/black_text_color"/>
 
         <TextView
