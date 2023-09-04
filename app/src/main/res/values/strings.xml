@@ -18,4 +18,9 @@
         you can see the list of shoe you store in the application.</string>
     <string name="go_to_shoe_list">Go to shoe list page</string>
     <string name="empty_shoe">There is no shoe to display</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="shoe_company">Company: %s</string>
+    <string name="shoe_size">Shoe size: %.1f</string>
+    <string name="shoe_description">Description: %s</string>
+
 </resources>
