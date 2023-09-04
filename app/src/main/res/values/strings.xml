@@ -22,5 +22,6 @@
     <string name="shoe_company">Company: %s</string>
     <string name="shoe_size">Shoe size: %.1f</string>
     <string name="shoe_description">Description: %s</string>
+    <string name="logout">Logout</string>
 
 </resources>
