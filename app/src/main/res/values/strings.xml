@@ -17,4 +17,5 @@
     <string name="instruction_description">This is the shoestore app that organize you shoe info. In the next screen,
         you can see the list of shoe you store in the application.</string>
     <string name="go_to_shoe_list">Go to shoe list page</string>
+    <string name="empty_shoe">There is no shoe to display</string>
 </resources>
