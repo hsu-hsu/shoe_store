@@ -27,5 +27,6 @@
     <string name="size">Size</string>
     <string name="desc">Description</string>
     <string name="save">Save</string>
+    <string name="incomplete_info">Please fill all the information</string>
 
 </resources>

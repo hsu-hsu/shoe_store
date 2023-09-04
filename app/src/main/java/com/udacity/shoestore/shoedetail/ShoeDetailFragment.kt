@@ -36,7 +36,7 @@ class ShoeDetailFragment : Fragment() {
                 shoeViewModel.addShoe(shoe)
                 goBackToShoeList()
             } else {
-                Toast.makeText(context, "Please fill the information", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, getString(R.string.incomplete_info), Toast.LENGTH_SHORT).show()
             }
         }
 

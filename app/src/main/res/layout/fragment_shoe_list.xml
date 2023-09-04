@@ -25,7 +25,7 @@
                     android:id="@+id/empty_list_text"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_marginTop="@dimen/layout_margin"
                     android:text="@string/empty_shoe"
                     android:textAlignment="center"
                     android:visibility="@{shoeViewModel.isEmpty() ? View.VISIBLE : View.GONE}" />
@@ -38,7 +38,7 @@
             android:layout_gravity="end|bottom"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/layout_margin"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:src="@drawable/ic_add" />
